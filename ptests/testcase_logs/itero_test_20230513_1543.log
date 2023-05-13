@@ -1,0 +1,12 @@
+2023-05-13 15:43:21,392 :INFO :test_fetchsucessstories :Entering home page..
+2023-05-13 15:43:21,392 :INFO :test_fetchsucessstories :Checking whether the acceptance button for the disclaimer is fully rendered to click
+2023-05-13 15:43:21,580 :INFO :test_fetchsucessstories :Clicking on acceptance button
+2023-05-13 15:43:21,888 :INFO :test_fetchsucessstories :Successfully accepted the acceptance button
+2023-05-13 15:43:21,888 :INFO :test_fetchsucessstories :Checking whether the WHY ITERO button fully rendered to click
+2023-05-13 15:43:22,192 :INFO :test_fetchsucessstories :Checking whether the SUCCESS STORIES button fully rendered to click
+2023-05-13 15:43:23,862 :INFO :test_fetchsucessstories :Successfully choosen WHY ITERO option
+2023-05-13 15:43:27,128 :INFO :test_fetchsucessstories :Clicked view success stories button
+2023-05-13 15:43:27,128 :INFO :test_fetchsucessstories :Waiting for the rendering of Orthodontics option
+2023-05-13 15:43:27,324 :INFO :test_fetchsucessstories :Successfully clicked on orthodontics option
+2023-05-13 15:43:27,324 :INFO :test_fetchsucessstories :Waiting for the appearence of testimonals under Orthodontic option
+2023-05-13 15:43:27,550 :INFO :test_fetchsucessstories :These are our testimonals['The iTero Element 5D imaging system with Dr. Sandra Tai', 'Utilising the iTero Element 5D imaging system as a Patient Education Tool with Dr. Sandra Tai', 'The iTero Element 5D imaging system: Collaboration with General Dentists with Dr. Sandra Tai']
