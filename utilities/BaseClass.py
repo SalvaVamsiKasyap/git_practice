@@ -30,7 +30,7 @@ class BaseClass:
         # In above statement logger is asking information about in which file i have to print and what is the format
         # File handler is nothing but the file location
         # File location will come from parent loging not the object
-        logger.setLevel(logging.DEBUG)
+        logger.setLevel(logging.INFO)
         return logger
 
 
