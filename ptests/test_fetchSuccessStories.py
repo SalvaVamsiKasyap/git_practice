@@ -7,6 +7,7 @@ now = datetime.datetime.now()
 
 timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
 
+datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 
 @pytest.mark.usefixtures("setup")
@@ -36,5 +37,5 @@ class Test_fetchSuccessStories(BaseClass):
         log.info(f"{timestamp} Successfully clicked on orthodontics option")
         log.info(f"{timestamp} Waiting for the appearence of testimonals under Orthodontic option")
         self.verify_element_presence("//div[text()='orthodontic']/preceding-sibling::div/p")
-        log.info(f"{timestamp} These are our testimonals{success_Stories.displaying_testimonals()}")
+        log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} These are our testimonals{success_Stories.displaying_testimonals()}")
 
