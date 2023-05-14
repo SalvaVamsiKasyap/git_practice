@@ -9,6 +9,12 @@ import time
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.edge.service import Service as EdgeService
+import datetime
+
+now = datetime.datetime.now()
+
+timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
+
 
 def itero_success_stories():
     #options = webdriver.ChromeOptions()
