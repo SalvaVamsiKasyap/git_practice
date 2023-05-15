@@ -12,7 +12,7 @@ timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
 
 @pytest.mark.usefixtures("setup")
 class Test_fetchSuccessStories(BaseClass):
-
+    @pytest.mark.stories
     def test_fetchsucessstories(self):
 
         log = self.get_logger()
