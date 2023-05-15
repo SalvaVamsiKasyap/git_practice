@@ -23,7 +23,7 @@ class BaseClass:
 
         #filehandler = logging.FileHandler(strftime("orange_hrm_%H_%M_%m_%d_%Y.log"))  # passing the file location. Here a file is created with logfile.log name and all logs will be sent there.
         filehandler = logging.FileHandler(strftime(r"C:\Users\Lenovo\PycharmProjects\itero_project\ptests\testcase_logs\itero_test_%Y%m%d_%H%M.log"))
-        formatter = logging.Formatter("%(message)s")
+        formatter = logging.Formatter("%(asctime)s :%(levelname)s :%(name)s :%(message)s")
         filehandler.setFormatter(formatter)  # Conneting formatting and file handling
         logger.addHandler(
             filehandler)  # There is a other class called file handler we have to pass file handler object to it
