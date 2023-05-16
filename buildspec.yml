@@ -3,6 +3,20 @@ version: 0.2
 phases:
   install:
     commands:
+    
+      - apt-get update
+      - apt-get -y upgrade
+      - apt-get install xvfb python python-pip build-essential -y
+      - pip install --upgrade pip
+      - pip install selenium
+      - pip install awscli
+      - pip install requests
+      - pip install boto3
+      - cp xvfb.init /etc/init.d/xvfb
+      - chmod +x /etc/init.d/xvfb
+      - update-rc.d xvfb defaults
+      - service xvfb start
+      - export PATH="$PATH:`pwd`/webdrivers"
       - pip install pytest
       - pip install -r requirements.txt
 
