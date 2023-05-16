@@ -37,14 +37,14 @@ class BaseClass:
 
     def verify_element_presence(self, element):
 
-        wait = WebDriverWait(self.driver,50)
+        wait = WebDriverWait(self.driver,5)
         wait.until(expected_conditions.presence_of_element_located((By.XPATH, element)))
         self.driver.find_element(By.XPATH, element)
         return self.driver.find_element(By.XPATH, element).get_attribute("innerHTML")
 
     def verify_element_absence(self,element):
 
-        wait=WebDriverWait(self.driver,25)
+        wait=WebDriverWait(self.driver,5)
         wait.until_not(expected_conditions.presence_of_element_located((By.XPATH,element)))
         self.driver.find_element(By.XPATH,element)
 

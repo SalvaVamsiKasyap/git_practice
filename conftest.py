@@ -13,8 +13,13 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.edge.service import Service as EdgeService
+from utilities.BaseClass import BaseClass
+import datetime
 
+now = datetime.datetime.now()
 
+instance = BaseClass()
+log = instance.get_logger()
 
 def pytest_addoption(parser):
     parser.addoption(
@@ -25,18 +30,24 @@ def pytest_addoption(parser):
 
 def setup(request):
     """This is used to do cross browser testing at run time"""
+    log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Entered in to setup fixture")
     browser_Name = request.config.getoption("browser_Name")
     response = requests.head("https://itero.com/en-APAC")
     response = str(response)[11:14]
-    if browser_Name == "chrome" and response == '200':
-        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-    elif browser_Name == "firefox" and response == '200':
-        driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
-    elif browser_Name == "edge" and response == '200':
-        driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
-    driver.get("https://itero.com/en-APAC")
-    driver.maximize_window()
-    request.cls.driver = driver
-    yield
-    driver.close()
+    try:
+        if browser_Name == "chrome" and response == '200':
+            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+        elif browser_Name == "firefox" and response == '200':
+            driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+        elif browser_Name == "edge" and response == '200':
+            driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+    except ValueError:
+        log.info("The respone code is other than 200 looks webpage is not accessible")
+    else:
+        driver.get("https://itero.com/en-APAC")
+        driver.maximize_window()
+        request.cls.driver = driver
+        yield
+    finally:
+        driver.close()
 

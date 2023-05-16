@@ -13,7 +13,7 @@ timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
 @pytest.mark.usefixtures("setup")
 class Test_fetchSuccessStories(BaseClass):
     @pytest.mark.stories
-    def test_fetchsucessstories(self):
+    def test_fetchorthosucessstories(self):
 
         log = self.get_logger()
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Entering home page..")
@@ -38,4 +38,3 @@ class Test_fetchSuccessStories(BaseClass):
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Waiting for the appearence of testimonals under Orthodontic option")
         self.verify_element_presence("//div[text()='orthodontic']/preceding-sibling::div/p")
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} These are our testimonals{success_Stories.displaying_testimonals()}")
-
