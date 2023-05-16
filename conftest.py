@@ -17,7 +17,6 @@ from utilities.BaseClass import BaseClass
 import datetime
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options
-from msedge.selenium_tools import EdgeOptions, Edge
 
 
 
@@ -53,11 +52,8 @@ def setup(request):
             driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()),options=firefox_options)
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of firefox driver {driver}")
         elif browser_Name == "edge" and response == '200':
-            edge_options = EdgeOptions()
-            edge_options.use_chromium = True  # Use Chromium-based Edge
-            edge_options.add_argument("headless")
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen edge browser")
-            driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()),options=edge_options)
+            driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of edge driver {driver}")
     except ValueError:
         log.info("The respone code is other than 200 looks webpage is not accessible")
