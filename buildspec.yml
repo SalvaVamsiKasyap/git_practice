@@ -11,6 +11,7 @@ phases:
     commands:
       - pytest
 
-  post-build:
+  post_build:
     commands:
       - echo "Build complete!"
+
