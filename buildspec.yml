@@ -7,9 +7,5 @@ phases:
 
   build:
     commands:
-      - pytest  -m stories -v -o log_cli=true --log-cli-level=INFO
-
-  post_build:
-    commands:
-      - echo "Build complete!"
+      - pytest  -m stories
 
