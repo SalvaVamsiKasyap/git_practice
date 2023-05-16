@@ -15,6 +15,11 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.edge.service import Service as EdgeService
 from utilities.BaseClass import BaseClass
 import datetime
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
+from msedge.selenium_tools import EdgeOptions, Edge
+
+
 
 now = datetime.datetime.now()
 
@@ -37,15 +42,22 @@ def setup(request):
     try:
         if browser_Name == "chrome" and response == '200':
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen chrome browser")
-            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+            chrome_options = Options()
+            chrome_options.add_argument("--headless")
+            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()),options=chrome_options)
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of chrome driver {driver}")
         elif browser_Name == "firefox" and response == '200':
+            firefox_options = Options()
+            firefox_options.add_argument("--headless")
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen firefox browser")
-            driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+            driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()),options=firefox_options)
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of firefox driver {driver}")
         elif browser_Name == "edge" and response == '200':
+            edge_options = EdgeOptions()
+            edge_options.use_chromium = True  # Use Chromium-based Edge
+            edge_options.add_argument("headless")
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen edge browser")
-            driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+            driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()),options=edge_options)
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of edge driver {driver}")
     except ValueError:
         log.info("The respone code is other than 200 looks webpage is not accessible")
