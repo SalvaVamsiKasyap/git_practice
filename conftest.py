@@ -36,11 +36,17 @@ def setup(request):
     response = str(response)[11:14]
     try:
         if browser_Name == "chrome" and response == '200':
+            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen chrome browser")
             driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of chrome driver {driver}")
         elif browser_Name == "firefox" and response == '200':
+            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen firefox browser")
             driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of firefox driver {driver}")
         elif browser_Name == "edge" and response == '200':
+            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen edge browser")
             driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of edge driver {driver}")
     except ValueError:
         log.info("The respone code is other than 200 looks webpage is not accessible")
     else:
