@@ -1,0 +1,15 @@
+INFO :<module> :2023-05-16 08:55:36.915451 Entered in to setup fixture
+INFO :<module> :2023-05-16 08:55:38.932484 Successfully Chosen chrome browser
+INFO :<module> :2023-05-16 08:55:46.591168 Successfully downloaded latest version of chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="d8d3ef4209e902ddf7365c8ff0708a40")>
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:51.798322 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:51.799394 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:51.946899 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:52.440555 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:52.440555 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:52.849125 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:54.558514 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:58.472699 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:58.475982 Waiting for the rendering of Orthodontics option
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:58.704969 Successfully clicked on orthodontics option
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:58.704969 Waiting for the appearence of testimonals under Orthodontic option
+INFO :test_fetchorthosucessstories :2023-05-16 08:55:58.822961 These are our testimonals['The iTero Element 5D imaging system with Dr. Sandra Tai', 'Utilising the iTero Element 5D imaging system as a Patient Education Tool with Dr. Sandra Tai', 'The iTero Element 5D imaging system: Collaboration with General Dentists with Dr. Sandra Tai']

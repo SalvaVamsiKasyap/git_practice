@@ -3,16 +3,14 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      python: 3.7
+      python: 3.9
     commands:
-      - pip3 install pytest
+      - pip install -r requirements.txt
+
   build:
     commands:
-      - python -m pytest --junitxml=pytest_reports/pytest_report.xml
+      - pytest
 
-reports:
-  pytest_reports:
-    files:
-      - pytest_report.xml
-    base-directory: pytest_reports/
-    file-format: JUNITXML
+  post-build:
+    commands:
+      - echo "Build complete!"
