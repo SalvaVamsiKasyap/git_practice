@@ -42,11 +42,10 @@ def setup(request):
         if browser_Name == "chrome" and response == '200':
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen chrome browser")
             chrome_options = Options()
-            driver_path = '/usr/local/bin/chromedriver'
             chrome_options.add_argument("--headless")
             chrome_options.add_argument('--disable-gpu')
             chrome_ptions.add_argument('--no-sandbox')
-            driver = webdriver.Chrome(driver_path, chrome_options=chromeOptions)
+            driver = webdriver.Chrome(chrome_options=chromeOptions)
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of chrome driver {driver}")
         elif browser_Name == "firefox" and response == '200':
             firefox_options = Options()
