@@ -17,6 +17,8 @@ from utilities.BaseClass import BaseClass
 import datetime
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options
+import chromedriver_autoinstaller
+
 
 
 
