@@ -12,7 +12,7 @@ phases:
       - sudo apt --fix-broken install
       - sudo apt-get install -f   # This command will attempt to fix any dependency issues
       - sudo apt-get clean
-      - sudo apt-get install fonts-liberation libasound2 libatk-bridge2.0-0 libatspi2.0-0 libgbm1 libgtk-3-0 libu2f-udev libvulkan1 libxkbcommon0 xdg-utils Y
+      - sudo apt-get install fonts-liberation libasound2 libatk-bridge2.0-0 libatspi2.0-0 libgbm1 libgtk-3-0 libu2f-udev libvulkan1 libxkbcommon0 xdg-utils
       - sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 
