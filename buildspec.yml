@@ -18,4 +18,4 @@ phases:
       - apt-get update && apt-get install -y xvfb
       - export DISPLAY=:99
       - Xvfb :99 -screen 0 1024x768x16 &
-      - google-chrome --no-sandbox
+      - docker run --privileged --volume /dev:/dev arn:aws:codebuild:ap-south-1:665229267002:build/itero_Project_Github:latest google-chrome --no-sandbox
