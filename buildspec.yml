@@ -15,13 +15,11 @@ phases:
       - sudo apt-get update
       - sudo apt-get install -y fonts-liberation libasound2 libatk-bridge2.0-0 libatspi2.0-0 libgbm1 libgtk-3-0 libu2f-udev libvulkan1 libxkbcommon0 xdg-utils
       - sudo dpkg -i google-chrome-stable_current_amd64.deb
-      - google-chrome --no-sandbox
-
-
-
-
-
- #build:
-    #commands:
+      - apt-get update && apt-get install -y xvfb
+      - export DISPLAY=:99
+      - Xvfb :99 -screen 0 1024x768x16 &
+build:
+ commands:
       #- cd ptests
-      #pytest  -m stories
+      #- pytest  -m stories
+      - google-chrome --no-sandbox
