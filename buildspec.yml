@@ -24,3 +24,7 @@ phases:
       - cd ptests
       - pytest  -m stories
 
+environment:
+  variables:
+    CONTINUE_PROMPT_RESPONSE: "Y"      
+
