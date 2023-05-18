@@ -39,6 +39,7 @@ def setup(request):
     browser_Name = request.config.getoption("browser_Name")
     response = requests.head("https://itero.com/en-APAC")
     response = str(response)[11:14]
+    log.info(f"I can access webpage and the reponse is {response}")
     if browser_Name == "chrome" and response == '200':
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen chrome browser")
         chrome_options = Options()
