@@ -14,3 +14,5 @@ phases:
     commands:
       - google-chrome-stable --version
       - which google-chrome
+      - cd ptests
+      - pytest
