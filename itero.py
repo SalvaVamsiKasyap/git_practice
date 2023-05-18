@@ -18,13 +18,13 @@ timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
 
 
 def itero_success_stories():
-    options = Options()
-    options.add_argument('--headless')  # Run Chrome in headless mode
-    options.add_argument('--enable-logging')
-    options.add_argument('--v=1')
-    options.binary_location = '/usr/bin/google-chrome'
-    options.add_argument("--disable-gpu")
-    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+    chrome_options = Options()
+    chrome_options.binary_location = '/usr/bin/google-chrome'
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--enable-logging')
+    chromedriver_binary_path = '/usr/bin/google-chrome'
+    chrome_options.add_argument('--disable-gpu')
+    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()),options=chrome_options)
     #driver = webdriver.Firefox(GeckoDriverManager().install())
     #driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     #driver = webdriver.Opera(OperaDriverManager().install())
