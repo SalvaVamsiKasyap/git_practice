@@ -23,6 +23,7 @@ def itero_success_stories():
     options.add_argument('--enable-logging')
     options.add_argument('--v=1')
     options.binary_location = '/usr/bin/google-chrome'
+    options.add_argument("--disable-gpu")
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     #driver = webdriver.Firefox(GeckoDriverManager().install())
     #driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
