@@ -2,8 +2,6 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      ubuntu: 18.04
     commands:
       - apt-get update
       - apt-get install -y wget
