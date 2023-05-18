@@ -10,6 +10,7 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.edge.service import Service as EdgeService
 import datetime
+from selenium.webdriver.chrome.options import Options
 
 now = datetime.datetime.now()
 
@@ -17,13 +18,11 @@ timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
 
 
 def itero_success_stories():
-    #options = webdriver.ChromeOptions()
-    #options.headless = True
-    options = options()
+    options = Options()
+    options.add_argument('--headless')  # Run Chrome in headless mode
     options.add_argument('--enable-logging')
     options.add_argument('--v=1')
-    options.add_argument('--headless')
-    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     #driver = webdriver.Firefox(GeckoDriverManager().install())
     #driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     #driver = webdriver.Opera(OperaDriverManager().install())
