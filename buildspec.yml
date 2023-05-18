@@ -3,15 +3,14 @@ version: 0.2
 phases:
   install:
     commands:
-      - sudo yum install python3-pip -y
-      - pip3 install pytest
-      - pip3 install selenium
-      - pip3 install webdriver-manager
-      - pip3 install requests
-      - yum update -y
-      - yum install -y wget
-      - wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-      - yum localinstall -y google-chrome-stable_current_x86_64.rpm
+      - pip install pytest
+      - pip install selenium
+      - pip install webdriver-manager
+      - pip install requests
+      - sudo apt-get update -y
+      - sudo apt-get install -y wget
+      - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+      - sudo dpkg -i google-chrome-stable_current_amd64.deb
 
   build:
     commands:
