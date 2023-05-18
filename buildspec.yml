@@ -8,6 +8,7 @@ phases:
       - pip install webdriver-manager
       - pip install requests
       - pip install --upgrade webdriver_manager
+      - pip install chromedriver-autoinstaller
       - sudo apt-get update -y
       - sudo apt-get install -y wget
       - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
