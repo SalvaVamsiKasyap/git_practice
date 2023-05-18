@@ -19,7 +19,7 @@ timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
 def itero_success_stories():
     #options = webdriver.ChromeOptions()
     #options.headless = True
-    options = Options()
+    options = options()
     options.add_argument('--enable-logging')
     options.add_argument('--v=1')
     options.add_argument('--headless')
