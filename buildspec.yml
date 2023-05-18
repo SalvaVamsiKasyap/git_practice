@@ -13,5 +13,4 @@ phases:
   build:
     commands:
       - google-chrome-stable --version
-      - cd ptests
-      - pytest
+      - which google-chrome
