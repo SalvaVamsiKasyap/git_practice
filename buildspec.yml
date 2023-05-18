@@ -7,10 +7,11 @@ phases:
       - pip3 install pytest
       - pip3 install selenium
       - pip3 install webdriver-manager
-      - apt-get update
-      - apt-get install -y wget
-      - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-      - apt-get install -y -f ./google-chrome-stable_current_amd64.deb
+      - yum update -y
+      - yum install -y wget
+      - wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+      - yum localinstall -y google-chrome-stable_current_x86_64.rpm
+
   build:
     commands:
       - google-chrome-stable --version
