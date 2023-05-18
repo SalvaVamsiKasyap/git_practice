@@ -19,7 +19,11 @@ timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
 def itero_success_stories():
     #options = webdriver.ChromeOptions()
     #options.headless = True
-    driver= webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))#,options=options)
+    options = Options()
+    options.add_argument('--enable-logging')
+    options.add_argument('--v=1')
+    options.add_argument('--headless')
+    driver= webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())),options=options)
     #driver = webdriver.Firefox(GeckoDriverManager().install())
     #driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     #driver = webdriver.Opera(OperaDriverManager().install())
