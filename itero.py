@@ -22,6 +22,7 @@ def itero_success_stories():
     options.add_argument('--headless')  # Run Chrome in headless mode
     options.add_argument('--enable-logging')
     options.add_argument('--v=1')
+    options.binary_location = '/usr/bin/google-chrome'
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     #driver = webdriver.Firefox(GeckoDriverManager().install())
     #driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
