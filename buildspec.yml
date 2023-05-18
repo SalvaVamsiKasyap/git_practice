@@ -2,15 +2,23 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
     commands:
-      - pip install -r requirements.txt
+      - pip install pytest
+      - pip install selenium
+      - pip install webdriver-manager
+      - pip install requests
+      - pip install --upgrade webdriver_manager
+      - pip install chromedriver-autoinstaller
+      - sudo apt-get update -y
+      - sudo apt-get install -y wget
+      - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+      - apt-get install -y -f ./google-chrome-stable_current_amd64.deb
+
 
   build:
     commands:
-      - pytest  -m stories -v -o log_cli=true --log-cli-level=INFO
-
-  post_build:
-    commands:
-      - echo "Build complete!"
-
+      - google-chrome-stable --version
+      - which google-chrome
+      - python itero.py
+      #- cd ptests
+      #- pytest
