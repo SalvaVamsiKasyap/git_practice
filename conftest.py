@@ -57,7 +57,7 @@ def setup(request):
     elif browser_Name == "edge" and response == '200':
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen edge browser")
         driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
-        log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of edge driver {driver}"
+        log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of edge driver {driver}")
     driver.get("https://itero.com/en-APAC")
     driver.maximize_window()
     request.cls.driver = driver
