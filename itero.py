@@ -20,7 +20,12 @@ timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
 
 def itero_success_stories():
     chromedriver_autoinstaller.install()
-    driver = webdriver.Chrome()
+    chrome_options = Options()
+    chrome_options.binary_location = '/usr/bin/google-chrome'
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--enable-logging')
+    chrome_options.add_argument('--disable-gpu')
+    driver = webdriver.Chrome(options=chrome_options)
     #driver = webdriver.Firefox(GeckoDriverManager().install())
     #driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     #driver = webdriver.Opera(OperaDriverManager().install())
