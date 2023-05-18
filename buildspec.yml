@@ -10,10 +10,10 @@ phases:
       - apt-get install -y wget
       - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
       - apt-get install -y -f ./google-chrome-stable_current_amd64.deb
-      
+  build:
     commands:
       - google-chrome-stable --version
       - which google-chrome
-      - chrome
       - cd ptests
       - pytest
+
