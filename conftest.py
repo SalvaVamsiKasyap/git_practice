@@ -44,6 +44,7 @@ def setup(request):
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen chrome browser")
             chrome_options = Options()
             chrome_options.binary_location = '/usr/bin/google-chrome'
+            chrome_options.headless = True
             driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
             log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of chrome driver {driver}")
         elif browser_Name == "firefox" and response == '200':
