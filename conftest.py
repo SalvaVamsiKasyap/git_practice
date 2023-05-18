@@ -31,7 +31,7 @@ def pytest_addoption(parser):
         "--browser_Name", action="store", default="chrome")
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture(scope="session")
 
 def setup(request):
     """This is used to do cross browser testing at run time"""
