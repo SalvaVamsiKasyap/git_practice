@@ -11,6 +11,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.edge.service import Service as EdgeService
 import datetime
 from selenium.webdriver.chrome.options import Options
+import chromedriver_autoinstaller
 
 now = datetime.datetime.now()
 
