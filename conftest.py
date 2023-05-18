@@ -39,32 +39,27 @@ def setup(request):
     browser_Name = request.config.getoption("browser_Name")
     response = requests.head("https://itero.com/en-APAC")
     response = str(response)[11:14]
-    try:
-        if browser_Name == "chrome" and response == '200':
-            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen chrome browser")
-            chrome_options = Options()
-            chrome_options.binary_location = '/usr/bin/google-chrome'
-            chrome_options.headless = True
-            driver = webdriver.Chrome(ChromeDriverManager(version='113.0.0').install(),options=chrome_options)
-            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of chrome driver {driver}")
-        elif browser_Name == "firefox" and response == '200':
-            firefox_options = Options()
-            firefox_options.add_argument("--headless")
-            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen firefox browser")
-            driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()),options=firefox_options)
-            time.sleep(25)
-            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of firefox driver {driver}")
-        elif browser_Name == "edge" and response == '200':
-            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen edge browser")
-            driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
-            log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of edge driver {driver}")
-    except ValueError:
-        log.info("The respone code is other than 200 looks webpage is not accessible")
-    else:
-        driver.get("https://itero.com/en-APAC")
-        driver.maximize_window()
-        request.cls.driver = driver
-        yield
-    finally:
-        driver.close()
+    if browser_Name == "chrome" and response == '200':
+        log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen chrome browser")
+        chrome_options = Options()
+        chrome_options.binary_location = '/usr/bin/google-chrome'
+        #chrome_options.headless = True
+        driver = webdriver.Chrome(ChromeDriverManager(version='113.0.0').install(),options=chrome_options)
+        log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of chrome driver {driver}")
+    elif browser_Name == "firefox" and response == '200':
+        firefox_options = Options()
+        firefox_options.add_argument("--headless")
+        log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen firefox browser")
+        driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()),options=firefox_options)
+        time.sleep(25)
+        log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of firefox driver {driver}")
+    elif browser_Name == "edge" and response == '200':
+        log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen edge browser")
+        driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+        log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of edge driver {driver}"
+    driver.get("https://itero.com/en-APAC")
+    driver.maximize_window()
+    request.cls.driver = driver
+    yield
+    driver.close()
 
