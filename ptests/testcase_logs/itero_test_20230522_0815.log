@@ -1,0 +1,9 @@
+INFO :test_fetchorthosucessstories :2023-05-22 08:15:10.803035 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 08:15:10.803035 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 08:15:10.936184 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 08:15:11.157526 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 08:15:11.157526 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 08:15:11.783557 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 08:15:13.299531 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-22 08:15:16.887293 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-22 08:15:16.887293 Segment options are [['Transforming a GP practice with iTero feat. Dr. Christina Blacher', 'A Restorative Experience with Dr. Thierry Nathan, DDS', 'iTero: Your Digital Partner with Dr. Thierry Nathan, DDS', 'Dr. Oliver Boujenah, DDS and iTero Element 5D Imaging System', 'Explore the iTero Element 5D Imaging System with Dr. Tim Nolting', 'Benefits to the Patients with Dr. Jacobson', 'Benefits to the Practice with Dr. Jacobson', 'Dr. Loller – Restorative Tools on iTero Element Intraoral Scanners', 'Dr. Loller – Patient Education with iTero Element Intraoral Scanners', 'Dr. Loller – iTero Element Tools for Invisalign'], ['The iTero Element 5D imaging system with Dr. Sandra Tai', 'Utilising the iTero Element 5D imaging system as a Patient Education Tool with Dr. Sandra Tai', 'The iTero Element 5D imaging system: Collaboration with General Dentists with Dr. Sandra Tai'], ['', '']]

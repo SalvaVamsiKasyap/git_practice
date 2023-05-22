@@ -1,0 +1,3 @@
+INFO :<module> :2023-05-22 08:16:05.351726 Entered in to setup fixture
+INFO :<module> :I can access webpage and the reponse is 200
+INFO :<module> :2023-05-22 08:16:07.341925 Successfully Chosen chrome browser
