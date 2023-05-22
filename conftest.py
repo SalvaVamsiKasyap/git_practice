@@ -44,11 +44,8 @@ def setup(request):
     if browser_Name == "chrome" and response == '200':
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen chrome browser")
         chrome_options = Options()
-        chrome_options.binary_location = '/usr/bin/google-chrome'
-        chrome_options.add_argument("--disable-gpu")
         chrome_options.headless = True
-        driver_path = ChromeDriverManager(version='113.0.5672.24').install()
-        os.chmod(driver_path, 0o777)
+        driver_path = ChromeDriverManager().install()
         driver = webdriver.Chrome(executable_path=driver_path,options=chrome_options)
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of chrome driver {driver}")
     elif browser_Name == "firefox" and response == '200':
