@@ -43,9 +43,7 @@ def setup(request):
     log.info(f"I can access webpage and the reponse is {response}")
     if browser_Name == "chrome" and response == '200':
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen chrome browser")
-        chrome_options = Options()
-        chrome_options.headless = True
-        driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of chrome driver {driver}")
     elif browser_Name == "firefox" and response == '200':
         firefox_options = Options()
