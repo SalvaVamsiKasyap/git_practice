@@ -18,8 +18,3 @@ class home_Page():
         self.driver.find_element(*home_Page.why_itero_option).click()
 
         return why_Itero(self.driver)
-
-
-
-
-

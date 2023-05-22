@@ -1,0 +1,15 @@
+INFO :<module> :2023-05-20 16:10:30.510764 Entered in to setup fixture
+INFO :<module> :2023-05-20 16:10:32.939391 Successfully Chosen chrome browser
+INFO :<module> :2023-05-20 16:10:43.742593 Successfully downloaded latest version of chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="de65a5dcc5cda7c03978315fb6f7042c")>
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:48.468497 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:48.468497 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:48.677379 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:48.993678 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:48.993678 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:49.417451 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:51.172170 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:55.455385 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:55.455385 Waiting for the rendering of Orthodontics option
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:55.652377 Successfully clicked on orthodontics option
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:55.652377 Waiting for the appearence of testimonals under Orthodontic option
+INFO :test_fetchorthosucessstories :2023-05-20 16:10:55.751116 These are our testimonals['Transforming a GP practice with iTero feat. Dr. Christina Blacher', 'A Restorative Experience with Dr. Thierry Nathan, DDS', 'iTero: Your Digital Partner with Dr. Thierry Nathan, DDS', 'Dr. Oliver Boujenah, DDS and iTero Element 5D Imaging System', 'Explore the iTero Element 5D Imaging System with Dr. Tim Nolting', 'Benefits to the Patients with Dr. Jacobson', 'Dr. Loller – Restorative Tools on iTero Element Intraoral Scanners', 'Dr. Loller – Patient Education with iTero Element Intraoral Scanners', 'Dr. Loller – iTero Element Tools for Invisalign']

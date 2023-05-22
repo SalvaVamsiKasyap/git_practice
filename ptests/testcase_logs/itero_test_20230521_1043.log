@@ -1,0 +1,51 @@
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:03.672837 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:03.672837 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:03.791405 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:03.927378 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:03.927378 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:04.113608 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:05.714642 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:08.124247 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:08.124247 Waiting for the rendering of Orthodontic option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:08.273296 Successfully clicked on Orthodontic option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:08.281301 Waiting for the appearence of testimonals under Orthodontic option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:13.425565 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:13.425565 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:13.425565 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:13.425565 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:13.535706 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:13.535706 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:15.185132 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:15.185132 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:17.711939 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:17.711939 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:17.711939 Waiting for the rendering of Restorative option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:17.711939 Waiting for the rendering of Restorative option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:17.937824 Successfully clicked on Restorative option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:17.937824 Successfully clicked on Restorative option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:17.937824 Waiting for the appearence of testimonals under Restorative option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:17.937824 Waiting for the appearence of testimonals under Restorative option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:23.294354 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:23.294354 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:23.294354 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:23.294354 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:23.294354 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:23.294354 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:23.390784 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:23.390784 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:23.390784 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:25.041822 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:25.041822 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:25.041822 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.227962 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.227962 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.227962 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.227962 Waiting for the rendering of Labs option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.227962 Waiting for the rendering of Labs option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.227962 Waiting for the rendering of Labs option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.396414 Successfully clicked on Labs option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.396414 Successfully clicked on Labs option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.396414 Successfully clicked on Labs option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.396414 Waiting for the appearence of testimonals under Labs option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.396414 Waiting for the appearence of testimonals under Labs option
+INFO :test_fetchorthosucessstories :2023-05-21 10:43:27.396414 Waiting for the appearence of testimonals under Labs option

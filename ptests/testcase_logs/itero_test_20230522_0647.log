@@ -1,0 +1,3 @@
+INFO :<module> :2023-05-22 06:47:52.138618 Entered in to setup fixture
+INFO :<module> :2023-05-22 06:47:53.998839 Successfully Chosen chrome browser
+INFO :<module> :2023-05-22 06:48:02.164135 Successfully downloaded latest version of chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="9acd5fdf2933b030f05388c70c2f966b")>

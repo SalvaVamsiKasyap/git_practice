@@ -6,18 +6,24 @@ class success_Stories_Page():
 
         self.driver = driver
 
-    orthodontic_button = (By.XPATH,"//a[text()='Orthodontic']")
-    testimonals = (By.XPATH,"//div[text()='orthodontic']/preceding-sibling::div/p")
+    segment_Button = (By.XPATH,"//nav/a")
+    testimonals = (By.XPATH,'//div[@class="fade tab-pane active show"]/div/div/div/div/div[@class="videoPreview_descriptionWrapper__78IlX"]/div/p')
 
-    def clicking_orthodontics_button(self):
 
-        self.driver.find_element(*success_Stories_Page.orthodontic_button).click()
+    def clicking_segment_button(self):
 
-    def displaying_testimonals(self):
+        segment_Option = self.driver.find_elements(*success_Stories_Page.segment_Button)
+        def fetch_seg_stories(option):
 
-        testimonals = []
-        actual_testimonals = []
-        testimonals = self.driver.find_elements(*success_Stories_Page.testimonals)
-        for name in testimonals:
-            actual_testimonals.append(name.text)
-        return actual_testimonals
+            option.click()
+            avaliable_testimonals = self.driver.find_elements(*success_Stories_Page.testimonals)
+            testimonals_text = []
+            for each in avaliable_testimonals:
+                testimonals_text.append(each.text)
+            return testimonals_text
+
+        return list(map(fetch_seg_stories,segment_Option))
+
+
+
+

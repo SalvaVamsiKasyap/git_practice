@@ -1,0 +1,9 @@
+INFO :test_fetchorthosucessstories :2023-05-22 06:48:06.732020 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 06:48:06.732020 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:48:06.896523 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 06:48:07.121026 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 06:48:07.121026 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:48:07.409264 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:48:09.099015 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-22 06:48:13.034680 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-22 06:48:13.034680 Segment options are [<selenium.webdriver.remote.webelement.WebElement (session="9acd5fdf2933b030f05388c70c2f966b", element="9BB49602438151445CF6FB31593546AF_element_49")>, <selenium.webdriver.remote.webelement.WebElement (session="9acd5fdf2933b030f05388c70c2f966b", element="9BB49602438151445CF6FB31593546AF_element_50")>, <selenium.webdriver.remote.webelement.WebElement (session="9acd5fdf2933b030f05388c70c2f966b", element="9BB49602438151445CF6FB31593546AF_element_51")>]

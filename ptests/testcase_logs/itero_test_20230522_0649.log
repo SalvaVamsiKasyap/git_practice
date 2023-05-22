@@ -1,0 +1,12 @@
+INFO :<module> :2023-05-22 06:49:38.870705 Entered in to setup fixture
+INFO :<module> :2023-05-22 06:49:40.599666 Successfully Chosen chrome browser
+INFO :<module> :2023-05-22 06:49:45.663027 Successfully downloaded latest version of chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="9a62b3628adb587d3ce8be6c60ab5d1e")>
+INFO :test_fetchorthosucessstories :2023-05-22 06:49:49.353719 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 06:49:49.353719 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:49:49.496199 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 06:49:49.721218 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 06:49:49.721218 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:49:49.996256 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:49:51.639177 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-22 06:49:54.708108 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-22 06:49:54.708108 Segment options are 3

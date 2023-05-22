@@ -1,0 +1,21 @@
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:03.445607 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:03.445607 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:03.589620 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:03.734964 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:03.734964 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:03.960122 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:05.470328 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.063420 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.087128 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.087128 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.087128 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.087128 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.533943 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.533943 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.533943 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.533943 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.533943 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 06:21:06.533943 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :<module> :2023-05-22 06:21:22.183375 Entered in to setup fixture
+INFO :<module> :2023-05-22 06:21:24.018443 Successfully Chosen chrome browser
+INFO :<module> :2023-05-22 06:21:31.155761 Successfully downloaded latest version of chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="ef89699d0fd2ab07297be7cbb9404063")>
