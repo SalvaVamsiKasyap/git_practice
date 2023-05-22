@@ -23,7 +23,3 @@ class success_Stories_Page():
             return testimonals_text
 
         return list(map(fetch_seg_stories,segment_Option))
-
-
-
-
