@@ -35,7 +35,7 @@ def pytest_addoption(parser):
 @pytest.fixture(scope="class")
 
 def setup(request):
-    """This is used to do cross browser testing at run timessss"""
+    """This is used to do cross browser testing at run timesssssss"""
     log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Entered in to setup fixture")
     browser_Name = request.config.getoption("browser_Name")
     response = requests.head("https://itero.com/en-APAC")
