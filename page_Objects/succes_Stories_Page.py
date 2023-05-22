@@ -18,8 +18,12 @@ class success_Stories_Page():
             option.click()
             avaliable_testimonals = self.driver.find_elements(*success_Stories_Page.testimonals)
             testimonals_text = []
-            for each in avaliable_testimonals:
-                testimonals_text.append(each.text)
+            #for each in avaliable_testimonals:
+            #    testimonals_text.append(each.text)
+            #return testimonals_text
+            def text_conversion(element):
+                return element.text
+            testimonals_text = list(map(text_conversion,avaliable_testimonals))
             return testimonals_text
 
         return list(map(fetch_seg_stories,segment_Option))

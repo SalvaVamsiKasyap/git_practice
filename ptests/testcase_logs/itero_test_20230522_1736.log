@@ -1,0 +1,9 @@
+INFO :test_fetchorthosucessstories :2023-05-22 17:36:09.265729 Entering home page..
+INFO :test_fetchorthosucessstories :2023-05-22 17:36:09.265729 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 17:36:09.447989 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 17:36:09.760034 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-05-22 17:36:09.760034 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 17:36:10.092390 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-05-22 17:36:11.730058 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-05-22 17:36:15.156702 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-05-22 17:36:15.156702 Segment options are [None, None, None]
