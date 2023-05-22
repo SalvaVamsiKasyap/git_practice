@@ -56,7 +56,6 @@ def setup(request):
         firefox_options.add_argument("--headless")
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen firefox browser")
         driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()),options=firefox_options)
-        time.sleep(25)
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully downloaded latest version of firefox driver {driver}")
     elif browser_Name == "edge" and response == '200':
         log.info(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')} Successfully Chosen edge browser")
