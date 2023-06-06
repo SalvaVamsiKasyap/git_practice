@@ -1,0 +1,11 @@
+INFO :<module> :2023-06-06 15:41:32.691592 Entered into setup fixture
+INFO :<module> :2023-06-06 15:41:40.707605 Successfully downloaded latest version of Chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="39d645246acb5a16dda75e42792dd1ab")>
+INFO :test_fetchorthosucessstories :2023-06-06 15:41:45.212195 Entering home page..
+INFO :test_fetchorthosucessstories :2023-06-06 15:41:45.212195 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-06-06 15:41:45.220192 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-06-06 15:41:45.757267 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-06-06 15:41:45.757267 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-06-06 15:41:46.024703 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-06-06 15:41:46.024703 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-06-06 15:41:51.081620 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-06-06 15:41:51.081620 Segment options are ["Restorative : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']", "Orthodontic : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']", "Labs : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']"]

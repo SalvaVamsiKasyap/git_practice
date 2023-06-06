@@ -1,0 +1,17 @@
+INFO :<module> :2023-06-06 16:50:31.574107 Entered into setup fixture
+INFO :<module> :2023-06-06 16:50:36.225406 Successfully downloaded latest version of Chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="1c194be1eee691f03903a3a87d99a839")>
+INFO :log_info :2023-06-06 16:50:39.808832 Entered in to home page
+INFO :log_info :2023-06-06 16:50:40.123131 Accepted the disclaimer in home_Page
+INFO :log_info :2023-06-06 16:50:40.123131 Accepted the disclaimer in home_Page
+INFO :log_info :2023-06-06 16:50:40.328106 Choosed the Why itero option
+INFO :log_info :2023-06-06 16:50:40.328106 Choosed the Why itero option
+INFO :log_info :2023-06-06 16:50:40.328106 Choosed the Why itero option
+INFO :log_info :2023-06-06 16:50:44.603528 Successfully chosen success stories button
+INFO :log_info :2023-06-06 16:50:44.603528 Successfully chosen success stories button
+INFO :log_info :2023-06-06 16:50:44.603528 Successfully chosen success stories button
+INFO :log_info :2023-06-06 16:50:44.603528 Successfully chosen success stories button
+INFO :log_info :2023-06-06 16:50:45.667273 Segment options are Labs : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']
+INFO :log_info :2023-06-06 16:50:45.667273 Segment options are Labs : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']
+INFO :log_info :2023-06-06 16:50:45.667273 Segment options are Labs : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']
+INFO :log_info :2023-06-06 16:50:45.667273 Segment options are Labs : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']
+INFO :log_info :2023-06-06 16:50:45.667273 Segment options are Labs : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']

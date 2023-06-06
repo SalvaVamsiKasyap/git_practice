@@ -1,0 +1,4 @@
+INFO :<module> :2023-06-06 17:27:16.656367 Entered into setup fixture
+INFO :<module> :2023-06-06 17:27:21.843529 Successfully downloaded latest version of Chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="aa1fdd889306ba4890aa4e081b950943")>
+INFO :test_fetchSuccessStories :2023-06-06 17:27:25.534794 Entered in to home page
+INFO :test_fetchSuccessStories :2023-06-06 17:27:25.780467 Accepted the disclaimer in home_Page

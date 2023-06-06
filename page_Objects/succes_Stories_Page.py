@@ -1,29 +1,33 @@
 from selenium.webdriver.common.by import By
+from page_Objects.basePage import BasePage
 
-class success_Stories_Page():
+class success_Stories_Page(BasePage):
 
+    segment_Button = (By.XPATH, "//nav/a")
+    testimonals = (By.XPATH,
+                   '//div[@class="fade tab-pane active show"]/div/div/div/div/div[@class="videoPreview_descriptionWrapper__78IlX"]/div/p')
     def __init__(self,driver):
 
         self.driver = driver
 
-    segment_Button = (By.XPATH,"//nav/a")
-    testimonals = (By.XPATH,'//div[@class="fade tab-pane active show"]/div/div/div/div/div[@class="videoPreview_descriptionWrapper__78IlX"]/div/p')
+
 
 
     def clicking_segment_button(self):
 
-        segment_Option = self.driver.find_elements(*success_Stories_Page.segment_Button)
-        def fetch_seg_stories(option):
+        segment_Option = self.get_collection(self.segment_Button)
+        segment_name = ""
+        result = []
+        for option in segment_Option:
 
             option.click()
-            avaliable_testimonals = self.driver.find_elements(*success_Stories_Page.testimonals)
-            testimonals_text = []
-            #for each in avaliable_testimonals:
-            #    testimonals_text.append(each.text)
-            #return testimonals_text
-            def text_conversion(element):
-                return element.text
-            testimonals_text = list(map(text_conversion,avaliable_testimonals))
-            return testimonals_text
+            available_testimonals = self.get_collection(self.testimonals)
+            container = []
+            for text in available_testimonals:
+                container.append(text.text)
+            segment_name = option.text
+            result.append(f"{segment_name} : {container}")
+        return result
 
-        return list(map(fetch_seg_stories,segment_Option))
+
+

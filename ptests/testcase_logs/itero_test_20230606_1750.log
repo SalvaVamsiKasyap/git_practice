@@ -1,0 +1,4 @@
+INFO :<module> :2023-06-06 17:50:10.703534 Entered into setup fixture
+INFO :<module> :2023-06-06 17:50:15.377365 Successfully downloaded latest version of Chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="12df3880e758190a2d6599251b08b13f")>
+INFO :<module> :2023-06-06 17:50:29.570387 Entered into setup fixture
+INFO :<module> :2023-06-06 17:50:34.050232 Successfully downloaded latest version of Chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="e1d61cddfc34333262727a2e9d9ed0db")>

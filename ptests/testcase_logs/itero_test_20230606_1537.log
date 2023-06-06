@@ -1,0 +1,9 @@
+INFO :test_fetchorthosucessstories :2023-06-06 15:37:01.702084 Entering home page..
+INFO :test_fetchorthosucessstories :2023-06-06 15:37:01.702084 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-06-06 15:37:01.702084 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-06-06 15:37:02.064400 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-06-06 15:37:02.064400 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-06-06 15:37:02.356625 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-06-06 15:37:02.356625 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-06-06 15:37:07.472267 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-06-06 15:37:07.472267 Segment options are ["Restorative : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']", "Orthodontic : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']", "Labs : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']"]

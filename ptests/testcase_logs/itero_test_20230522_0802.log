@@ -1,4 +1,0 @@
-INFO :<module> :2023-05-22 08:02:55.873184 Entered in to setup fixture
-INFO :<module> :I can access webpage and the reponse is 200
-INFO :<module> :2023-05-22 08:02:58.037759 Successfully Chosen edge browser
-INFO :<module> :2023-05-22 08:03:16.532793 Successfully downloaded latest version of edge driver <selenium.webdriver.edge.webdriver.WebDriver (session="7a7f15fe15db5b0624bfc5c2f8465e06")>

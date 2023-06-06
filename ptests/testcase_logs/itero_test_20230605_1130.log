@@ -1,0 +1,13 @@
+INFO :<module> :2023-06-05 11:30:05.733249 Entered into setup fixture
+INFO :<module> :2023-06-05 11:30:16.802658 Successfully downloaded latest version of Edge driver <selenium.webdriver.edge.webdriver.WebDriver (session="114c3c1c9e5f9f6bc74d8ba5f12ee02b")>
+INFO :test_fetchorthosucessstories :2023-06-05 11:30:20.639351 Entering home page..
+INFO :test_fetchorthosucessstories :2023-06-05 11:30:20.640076 Checking whether the acceptance button for the disclaimer is fully rendered to click
+INFO :test_fetchorthosucessstories :2023-06-05 11:30:20.640076 Clicking on acceptance button
+INFO :test_fetchorthosucessstories :2023-06-05 11:30:20.967011 Successfully accepted the acceptance button
+INFO :test_fetchorthosucessstories :2023-06-05 11:30:20.967011 Checking whether the WHY ITERO button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-06-05 11:30:21.179733 Checking whether the SUCCESS STORIES button fully rendered to click
+INFO :test_fetchorthosucessstories :2023-06-05 11:30:21.179733 Successfully choosen WHY ITERO option
+INFO :test_fetchorthosucessstories :2023-06-05 11:30:25.619007 Clicked view success stories button
+INFO :test_fetchorthosucessstories :2023-06-05 11:30:25.619007 Segment options are ["Restorative : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']", "Orthodontic : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']", "Labs : ['An iTero Success Story: How Ziemek Laboratories is enhancing the restorative experience with iTero.', 'MyiTero, the Platform Connecting Labs and Dentists feat. Byrne Laboratories']"]
+INFO :<module> :2023-06-05 11:30:41.462028 Entered into setup fixture
+INFO :<module> :2023-06-05 11:30:58.532273 Successfully downloaded latest version of Firefox driver <selenium.webdriver.firefox.webdriver.WebDriver (session="908aa173-eb1c-464f-8c43-d87f2d772c30")>

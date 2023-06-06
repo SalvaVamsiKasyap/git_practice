@@ -1,0 +1,17 @@
+INFO :<module> :2023-06-06 16:39:02.841524 Entered into setup fixture
+INFO :<module> :2023-06-06 16:39:07.122383 Successfully downloaded latest version of Chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="b18abeba7767df34546a81ff509bf078")>
+INFO :log_info :2023-06-06 16:39:10.222261 Entered in to home page
+INFO :log_info :2023-06-06 16:39:10.467441 Accepted the disclaimer in home_Page
+INFO :log_info :2023-06-06 16:39:10.467441 Accepted the disclaimer in home_Page
+INFO :log_info :2023-06-06 16:39:10.653382 Choosed the Why itero option
+INFO :log_info :2023-06-06 16:39:10.653382 Choosed the Why itero option
+INFO :log_info :2023-06-06 16:39:10.653382 Choosed the Why itero option
+INFO :log_info :2023-06-06 16:39:14.171542 Successfully chosen success stories button
+INFO :log_info :2023-06-06 16:39:14.171542 Successfully chosen success stories button
+INFO :log_info :2023-06-06 16:39:14.171542 Successfully chosen success stories button
+INFO :log_info :2023-06-06 16:39:14.171542 Successfully chosen success stories button
+INFO :log_info :2023-06-06 16:39:14.313386 Segment options are None
+INFO :log_info :2023-06-06 16:39:14.313386 Segment options are None
+INFO :log_info :2023-06-06 16:39:14.313386 Segment options are None
+INFO :log_info :2023-06-06 16:39:14.313386 Segment options are None
+INFO :log_info :2023-06-06 16:39:14.313386 Segment options are None

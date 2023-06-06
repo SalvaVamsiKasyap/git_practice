@@ -1,0 +1,2 @@
+INFO :<module> :2023-06-05 11:27:44.218257 Entered into setup fixture
+INFO :<module> :2023-06-05 11:27:59.522956 Successfully downloaded latest version of Edge driver <selenium.webdriver.edge.webdriver.WebDriver (session="63fc5ae94a8ee33da536be16fd9da61a")>

@@ -1,4 +1,0 @@
-INFO :<module> :2023-05-22 08:23:48.110185 Entered in to setup fixture
-INFO :<module> :I can access webpage and the reponse is 200
-INFO :<module> :2023-05-22 08:23:49.860404 Successfully Chosen chrome browser
-INFO :<module> :2023-05-22 08:23:59.932157 Successfully downloaded latest version of chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="04af913dcb5c893767997cbe9ada8f27")>

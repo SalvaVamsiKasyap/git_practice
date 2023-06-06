@@ -1,0 +1,10 @@
+INFO :<module> :2023-06-06 11:07:11.752422 Entered into setup fixture
+INFO :<module> :2023-06-06 11:07:19.041054 Successfully downloaded latest version of Chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="0225525e3d0ae8061172800d4f5da3ac")>
+INFO :log_info :2023-06-06 11:07:23.762990 started executing the fetchSuccessStories test case
+INFO :log_info :2023-06-06 11:07:23.788461 Entered in to home page
+INFO :log_info :2023-06-06 11:07:23.788461 Entered in to home page
+INFO :log_info :2023-06-06 11:07:24.405135 Accepted the disclaimer in home_Page
+INFO :log_info :2023-06-06 11:07:24.405135 Accepted the disclaimer in home_Page
+INFO :log_info :2023-06-06 11:07:24.405135 Accepted the disclaimer in home_Page
+INFO :<module> :2023-06-06 11:07:51.523620 Entered into setup fixture
+INFO :<module> :2023-06-06 11:07:58.226079 Successfully downloaded latest version of Chrome driver <selenium.webdriver.chrome.webdriver.WebDriver (session="85e1582f31189288f7b08cb41d96b5c2")>
